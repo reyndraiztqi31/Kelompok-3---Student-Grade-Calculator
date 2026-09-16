@@ -13,19 +13,19 @@
 | 2 | Caisya Maiylafadza  | 2610312006 | Algorithm |
 | 3 | Muthia Atikah |2610312010 | Flowchart |
 | 4 | Zahra Aqliya Arrazi | 2610312014 | JavaScript |
-| 5 | Reyyandra Izzatqi |610312027 | Testing & Documentation |
+| 5 | Reyyandra Izzatqi |2610312027 | Testing & Documentation |
 
 ---
 
 ## 2. Project Title
 
-Student Grade Calculator
+Student Grade Calculator 
 
 ---
 
 ## 3. Project Description
 
-This program is a simple game in which the player must guess a number determined by the computer.
+This program is a program to calculate a student's final grade.
 
 ---
 
@@ -47,8 +47,10 @@ This project is designed to apply the following programming concepts:
 
 The program receives:
 
-- The player's guess
-- The number of attempts
+- Assignment Grade
+- Quizz Score
+- Midterm Exam Score
+- Final Semester Exam Grade
 
 ---
 
