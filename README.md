@@ -62,7 +62,7 @@ The program uses the following score weights:
 | 1 | Assignment Grade | 20% | 
 | 2 | Quizz Score | 20% | 
 | 3 | MidTerm Exam Score | 30% | 
-| 4 | Final Term Exam Score| 30% | 
+| 4 | Final Semester Exam Score| 30% | 
 
 Then, the program must calculate the final score and determine the student's letter grade. The criteria are as follows:
 | No. | Final Grade | Grade | 
@@ -79,10 +79,12 @@ Then, the program must calculate the final score and determine the student's let
 
 The program displays:
 
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
+- Assignment Grade
+- Quizz Score
+- MidTerm Exam Score
+- Final Semester Exam Score
+- Final Student Grade in numerical form
+- Final Student Grade in letter form
 
 ---
 
