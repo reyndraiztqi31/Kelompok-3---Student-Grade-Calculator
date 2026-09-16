@@ -11,9 +11,9 @@
 |---|---|---|---|
 | 1 | Maheswari Indah Adiputri | 2610312003 | Project Coordinator |
 | 2 | Caisya Maiylafadza  | 2610312006 | Algorithm |
-| 3 | Muthia Atikah |2610312010 | Flowchart |
+| 3 | Muthia Atikah | 2610312010 | Flowchart |
 | 4 | Zahra Aqliya Arrazi | 2610312014 | JavaScript |
-| 5 | Reyyandra Izzatqi |2610312027 | Testing & Documentation |
+| 5 | Reyyandra Izzatqi | 2610312027 | Testing & Documentation |
 
 ---
 
@@ -56,13 +56,22 @@ The program receives:
 
 ## 6. Process
 
-The program compares the player's guess with the target number.
+The program uses the following score weights:
+| No. | Component | Weight | 
+|---|---|---|
+| 1 | Assignment Grade | 20% | 
+| 2 | Quizz Score | 20% | 
+| 3 | MidTerm Exam Score | 30% | 
+| 4 | Final Term Exam Score| 30% | 
 
-If the guess is:
-
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
+Then, the program must calculate the final score and determine the student's letter grade. The criteria are as follows:
+| No. | Final Grade | Grade | 
+|---|---|---|
+| 1 | 80 - 100 | A | 
+| 2 | 70 - 79 | B | 
+| 3 | 60 - 69 | C | 
+| 4 | 50 - 59 | D | 
+| 5 | > 50 | E | 
 
 ---
 
