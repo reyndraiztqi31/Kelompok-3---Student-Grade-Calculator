@@ -19,7 +19,7 @@
 
 ## 2. Project Title
 
-Number Guessing Game
+Student Grade Calculator
 
 ---
 
