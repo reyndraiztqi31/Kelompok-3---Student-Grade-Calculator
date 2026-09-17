@@ -47,10 +47,10 @@ This project is designed to apply the following programming concepts:
 
 The program receives:
 
-- Assignment Grade
+- Assignment Score
 - Quizz Score
 - Midterm Exam Score
-- Final Semester Exam Grade
+- Final Semester Exam Score
 
 ---
 
@@ -59,7 +59,7 @@ The program receives:
 The program uses the following score weights:
 | No. | Component | Weight | 
 |---|---|---|
-| 1 | Assignment Grade | 20% | 
+| 1 | Assignment Score| 20% | 
 | 2 | Quizz Score | 20% | 
 | 3 | MidTerm Exam Score | 30% | 
 | 4 | Final Semester Exam Score| 30% | 
@@ -79,7 +79,7 @@ Then, the program must calculate the final score and determine the student's let
 
 The program displays:
 
-- Assignment Grade
+- Assignment Score
 - Quizz Score
 - MidTerm Exam Score
 - Final Semester Exam Score
