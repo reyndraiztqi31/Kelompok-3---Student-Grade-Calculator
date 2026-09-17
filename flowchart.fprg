@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Flowghoritm Student Grade"/>
+        <attribute name="authors" value="MyBook Hype AMD"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-17 08:09:17 AM"/>
+        <attribute name="created" value="TXlCb29rIEh5cGUgQU1EO1JFWVk7MjAyNi0wOS0xMDswODoyNDozNSBBTTsyODcz"/>
+        <attribute name="edited" value="TXlCb29rIEh5cGUgQU1EO1JFWVk7MjAyNi0wOS0xNzswODowOToxNyBBTTsyOzI5OTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tugas, kuis, UTS, UAS, IPK" type="Real" array="False" size=""/>
+            <declare name="Grade" type="String" array="False" size=""/>
+            <output expression="&quot;Wellcome to Simple Student Grade Calculaor&quot;" newline="True"/>
+            <output expression="&quot;Silahkan Input Assignment Score :&quot;" newline="True"/>
+            <input variable="tugas"/>
+            <output expression="&quot;Silahkan Input Quizz Score :&quot;" newline="True"/>
+            <input variable="kuis"/>
+            <output expression="&quot;Silahkan Input MidTerm Exam Score :&quot;" newline="True"/>
+            <input variable="UTS"/>
+            <output expression="&quot;Silahkan Input Final Semester Exam Score :&quot;" newline="True"/>
+            <input variable="UAS"/>
+            <assign variable="IPK" expression="(tugas * 0.20) + (kuis * 0.20) + (uts * 0.30) + (uas * 0.30)"/>
+            <if expression="IPK &gt;= 80">
+                <then>
+                    <assign variable="Grade" expression="&quot;A&quot;"/>
+                </then>
+                <else>
+                    <if expression="IPK &gt;= 70">
+                        <then>
+                            <assign variable="Grade" expression="&quot;B&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="IPK &gt;= 60">
+                                <then>
+                                    <assign variable="Grade" expression="&quot;C&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="IPK &gt;= 50">
+                                        <then>
+                                            <assign variable="Grade" expression="&quot;D&quot;"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="Grade" expression="&quot;E&quot;"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;IPK: &quot; &amp; IPK" newline="True"/>
+            <output expression="&quot;Grade: &quot; &amp; Grade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
