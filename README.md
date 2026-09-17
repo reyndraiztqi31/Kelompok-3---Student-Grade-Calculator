@@ -12,8 +12,8 @@
 | 1 | Reyyandra Izzatqi | 2610312027 | Project Coordinator |
 | 2 | Maheswari Indah Adiputri  | 2610312003 | Algorithm |
 | 3 | Muthia Atikah | 2610312010 | Flowchart |
-| 4 | Zahra Aqliya Arrazi | 2610312014 | JavaScript |
-| 5 | Caisya Maiylafadza | 2610312006 | Testing & Documentation |
+| 4 | Caisya Maiylafadza | 2610312006 | JavaScript |
+| 5 | Zahra Aqliya Arrazi | 2610312014 | Testing & Documentation |
 
 ---
 
