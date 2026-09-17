@@ -1,0 +1,38 @@
+ALGORITHM Simple Student Grade Calculator
+
+DECLARE tugas, kuis, UTS, UAS, IPK AS REAL
+DECLARE Grade AS STRING
+
+OUTPUT "Wellcome to Simple Student Grade Calculaor"
+
+OUTPUT "Silahkan Input Assignment Score :"
+INPUT tugas
+
+OUTPUT "Silahkan Input Quizz Score :"
+INPUT kuis
+
+OUTPUT "Silahkan Input MidTerm Exam Score :"
+INPUT UTS
+
+OUTPUT "Silahkan Input Final Semester Exam Score :"
+INPUT UAS
+
+IPK ← (tugas × 0.20) + (kuis × 0.20) +
+      (UTS × 0.30) + (UAS × 0.30)
+
+IF IPK >= 80 THEN
+    Grade ← "A"
+ELSE IF IPK >= 70 THEN
+    Grade ← "B"
+ELSE IF IPK >= 60 THEN
+    Grade ← "C"
+ELSE IF IPK >= 50 THEN
+    Grade ← "D"
+ELSE
+    Grade ← "E"
+END IF
+
+OUTPUT "IPK: ", IPK
+OUTPUT "Grade: ", Grade
+
+END ALGORITHM
